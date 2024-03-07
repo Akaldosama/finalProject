@@ -1,0 +1,25 @@
+.parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    border: 1px solid white;
+    padding: 30px;
+    margin: 50px 0px;
+    gap: 50px;
+    border-radius: 10px;
+}
+
+.child{
+    width: calc(100% / 2);
+}
+
+.ulUserList li{
+    line-height: 2.4em;
+    font-size: 20px;
+}
+
+.imgUser{
+    width: 100%;
+    height: 100%;
+}

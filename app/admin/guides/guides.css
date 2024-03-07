@@ -1,0 +1,75 @@
+.wrapper {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.parent {
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid blue;
+}
+
+.child {
+  width: 300px;
+  height: 200px;
+  overflow: auto;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  position: relative;
+  scrollbar-width: none;
+}
+
+i {
+  font-weight: 300;
+}
+
+.buttonDisplay {
+  display: flex;
+  gap: 20px;
+  margin: 20px;
+}
+
+.editBtn {
+  border: 1px solid rgb(0, 55, 255);
+  width: 70px;
+}
+
+.deleteBtn {
+  border: 1px solid hsla(0, 100%, 50%, 0.388);
+  width: 70px;
+}
+
+.addButton {
+  background-color: blue;
+  margin-bottom: 20px;
+}
+
+.child img {
+  width: 100%;
+}
+
+.navbarGuides {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.inputFilter {
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  outline: none;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 0 10px;
+}
